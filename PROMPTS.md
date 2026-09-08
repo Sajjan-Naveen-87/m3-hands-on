@@ -37,13 +37,19 @@ public record UserDTO(long id, String name, String email, boolean active) {
 ## Original AI commit message
 
 ```text
-Refactor user model into compact DTO and add mapper support
+feat: initialize project structure with OrderController, User models, and build configuration for Module 3 exercises
 ```
 
 ## Edited version
 
 ```text
 Add UserDTO record and static fromUser mapper for the M3 hands-on exercise
+```
+
+## Actual local commit
+
+```text
+feat: initialize project structure with OrderController, User models, and build configuration for Module 3 exercises
 ```
 
 ---
@@ -186,4 +192,42 @@ Assistant response:
 2. Updated UserDTO.java with a complementary toUser() mapper method alongside fromUser(User).
 3. Finalized OrderController.java methods (getOrderById and createOrder) and updated Javadoc to reflect completion.
 4. Recorded all prompts and responses in PROMPTS.md.
+```
+
+### Prompt 8
+
+User prompt:
+
+```text
+I made a commit locally note down the commit message that was suggested by to add as commit in PROMPTS.md
+```
+
+Assistant response:
+
+```text
+1. Inspected git log for the recent local commit (a2244d34654903f51d448fc6444b32e591cac8f4).
+2. Recorded the AI-suggested commit message verbatim in PROMPTS.md:
+   "feat: initialize project structure with OrderController, User models, and build configuration for Module 3 exercises"
+3. Updated the commit sections and logged the prompt in PROMPTS.md.
+```
+
+### Prompt 9
+
+User prompt:
+
+```text
+Suggest a branch name for this issue: "customer wants to be able to
+close their account permanently". Format: prefix/short-kebab-slug.
+Prefix is one of: feat, fix, chore, docs, refactor.
+```
+
+Assistant response:
+
+```text
+Recommended branch name:
+feat/close-account
+
+Alternatives:
+- feat/account-closure
+- feat/delete-account
 ```
