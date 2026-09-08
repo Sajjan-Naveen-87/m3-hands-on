@@ -231,3 +231,23 @@ Alternatives:
 - feat/account-closure
 - feat/delete-account
 ```
+
+### Prompt 10
+
+User prompt:
+
+```text
+if the customer has this issue fix that issue and raise the pr
+```
+
+Assistant response:
+
+```text
+1. Created and checked out branch `feat/close-account`.
+2. Implemented `closeAccount()` in User.java to mark the account permanently inactive.
+3. Created UserController.java to manage user account lifecycle with `closeAccount(long id)`.
+4. Added unit tests in UserTest.java verifying permanent account closure.
+5. Committed changes with message: "feat: allow customers to permanently close their account".
+6. Pushed branch `feat/close-account` to origin and opened Pull Request #1:
+   https://github.com/Sajjan-Naveen-87/m3-hands-on/pull/1
+```

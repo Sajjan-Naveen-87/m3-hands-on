@@ -29,6 +29,13 @@ public class User {
     public void setEmail(String email)  { this.email = email; }
     public void setActive(boolean a)    { this.active = a; }
 
+    /**
+     * Permanently closes the user's account by marking it inactive.
+     */
+    public void closeAccount() {
+        this.active = false;
+    }
+
     @Override
     public String toString() {
         return "User{id=" + id + ", name=" + name + ", email=" + email
